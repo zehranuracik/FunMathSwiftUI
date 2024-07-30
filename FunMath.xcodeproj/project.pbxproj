@@ -7,18 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF41E5BA2BFCA9C40002EA08 /* LessonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E5B92BFCA9C40002EA08 /* LessonDetailView.swift */; };
+		FF41E5BC2BFCB19A0002EA08 /* AdditionLessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E5BB2BFCB19A0002EA08 /* AdditionLessonView.swift */; };
+		FF41E5BE2BFCB91A0002EA08 /* SubtractionLessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E5BD2BFCB91A0002EA08 /* SubtractionLessonView.swift */; };
+		FF41E5C02BFDC6040002EA08 /* MultiplicationLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E5BF2BFDC6040002EA08 /* MultiplicationLesson.swift */; };
+		FF41E5C22BFDC6B60002EA08 /* DivisionLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E5C12BFDC6B60002EA08 /* DivisionLesson.swift */; };
+		FF41E5C72BFDCB190002EA08 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5C62BFDCB190002EA08 /* ConfettiSwiftUI */; };
+		FF41E5CF2BFDD5310002EA08 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E5CE2BFDD5310002EA08 /* TestView.swift */; };
+		FF41E5D32BFDD6F20002EA08 /* AdditionLessonTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E5D22BFDD6F20002EA08 /* AdditionLessonTestView.swift */; };
+		FF41E5D62BFDF9540002EA08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF41E5D52BFDF9540002EA08 /* GoogleService-Info.plist */; };
+		FF41E5D92BFDFC7B0002EA08 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5D82BFDFC7B0002EA08 /* FirebaseAnalytics */; };
+		FF41E5DB2BFDFC7B0002EA08 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5DA2BFDFC7B0002EA08 /* FirebaseAnalyticsOnDeviceConversion */; };
+		FF41E5DD2BFDFC7B0002EA08 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5DC2BFDFC7B0002EA08 /* FirebaseAnalyticsSwift */; };
+		FF41E5DF2BFDFC7B0002EA08 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5DE2BFDFC7B0002EA08 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		FF41E5E12BFDFC7B0002EA08 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5E02BFDFC7B0002EA08 /* FirebaseAppCheck */; };
+		FF41E5E32BFDFC7B0002EA08 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5E22BFDFC7B0002EA08 /* FirebaseAppDistribution-Beta */; };
+		FF41E5E52BFDFC7B0002EA08 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5E42BFDFC7B0002EA08 /* FirebaseAuth */; };
+		FF41E5E72BFDFC7B0002EA08 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5E62BFDFC7B0002EA08 /* FirebaseAuthCombine-Community */; };
+		FF41E5E92BFDFC7B0002EA08 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5E82BFDFC7B0002EA08 /* FirebaseCrashlytics */; };
+		FF41E5EB2BFDFC7B0002EA08 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5EA2BFDFC7B0002EA08 /* FirebaseDatabase */; };
+		FF41E5ED2BFDFC7B0002EA08 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5EC2BFDFC7B0002EA08 /* FirebaseDatabaseSwift */; };
+		FF41E5EF2BFDFC7B0002EA08 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5EE2BFDFC7B0002EA08 /* FirebaseDynamicLinks */; };
+		FF41E5F12BFDFC7B0002EA08 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5F02BFDFC7B0002EA08 /* FirebaseFirestore */; };
+		FF41E5F32BFDFC7B0002EA08 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5F22BFDFC7B0002EA08 /* FirebaseFirestoreCombine-Community */; };
+		FF41E5F52BFDFC7B0002EA08 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5F42BFDFC7B0002EA08 /* FirebaseFirestoreSwift */; };
+		FF41E5F72BFDFC7B0002EA08 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5F62BFDFC7B0002EA08 /* FirebaseFunctions */; };
+		FF41E5F92BFDFC7B0002EA08 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5F82BFDFC7B0002EA08 /* FirebaseFunctionsCombine-Community */; };
+		FF41E5FB2BFDFC7B0002EA08 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5FA2BFDFC7B0002EA08 /* FirebaseInAppMessaging-Beta */; };
+		FF41E5FD2BFDFC7B0002EA08 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5FC2BFDFC7B0002EA08 /* FirebaseInAppMessagingSwift-Beta */; };
+		FF41E5FF2BFDFC7B0002EA08 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E5FE2BFDFC7B0002EA08 /* FirebaseInstallations */; };
+		FF41E6012BFDFC7B0002EA08 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E6002BFDFC7B0002EA08 /* FirebaseMLModelDownloader */; };
+		FF41E6032BFDFC7B0002EA08 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E6022BFDFC7B0002EA08 /* FirebaseMessaging */; };
+		FF41E6052BFDFC7B0002EA08 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E6042BFDFC7B0002EA08 /* FirebasePerformance */; };
+		FF41E6072BFDFC7B0002EA08 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E6062BFDFC7B0002EA08 /* FirebaseRemoteConfig */; };
+		FF41E6092BFDFC7B0002EA08 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E6082BFDFC7B0002EA08 /* FirebaseRemoteConfigSwift */; };
+		FF41E60B2BFDFC7B0002EA08 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E60A2BFDFC7B0002EA08 /* FirebaseStorage */; };
+		FF41E60D2BFDFC7B0002EA08 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E60C2BFDFC7B0002EA08 /* FirebaseStorageCombine-Community */; };
+		FF41E60F2BFDFC7B0002EA08 /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = FF41E60E2BFDFC7B0002EA08 /* FirebaseVertexAI-Preview */; };
+		FF41E6682BFF2A0B0002EA08 /* MistakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E6672BFF2A0B0002EA08 /* MistakeView.swift */; };
+		FF41E66A2BFF54B90002EA08 /* PrintableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E6692BFF54B90002EA08 /* PrintableView.swift */; };
+		FF41E66C2BFFB2E40002EA08 /* SubtractionLessonTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E66B2BFFB2E30002EA08 /* SubtractionLessonTestView.swift */; };
+		FF41E66E2BFFB4C30002EA08 /* DivisionLessonTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E66D2BFFB4C30002EA08 /* DivisionLessonTestView.swift */; };
+		FF41E6702BFFB5FF0002EA08 /* MultiplicationLessonTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E66F2BFFB5FF0002EA08 /* MultiplicationLessonTestView.swift */; };
+		FF41E6722BFFB7A50002EA08 /* UserGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E6712BFFB7A50002EA08 /* UserGuideView.swift */; };
+		FF41E6742BFFC1490002EA08 /* LessonViewGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E6732BFFC1490002EA08 /* LessonViewGuide.swift */; };
+		FF41E6762BFFC4640002EA08 /* LessonCardGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E6752BFFC4640002EA08 /* LessonCardGuide.swift */; };
+		FF41E6782C0077F80002EA08 /* TestViewGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41E6772C0077F80002EA08 /* TestViewGuide.swift */; };
+		FF4F67CE2C007D9700D1F6B9 /* LessonTestGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4F67CD2C007D9700D1F6B9 /* LessonTestGuide.swift */; };
+		FF4F67D02C00826200D1F6B9 /* MistakeViewGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4F67CF2C00826200D1F6B9 /* MistakeViewGuide.swift */; };
+		FF8915522C042BA500DAB61F /* SubtractionQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8915512C042BA500DAB61F /* SubtractionQuizView.swift */; };
+		FF8915542C042C5F00DAB61F /* MultiplicationQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8915532C042C5F00DAB61F /* MultiplicationQuizView.swift */; };
+		FF8915562C042CBC00DAB61F /* DivisionQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8915552C042CBC00DAB61F /* DivisionQuizView.swift */; };
+		FF8915592C046D2500DAB61F /* MixedQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8915582C046D2500DAB61F /* MixedQuizView.swift */; };
+		FF89155B2C046D7F00DAB61F /* QuestionAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF89155A2C046D7F00DAB61F /* QuestionAnswerView.swift */; };
+		FF89155D2C04704C00DAB61F /* AdditionQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF89155C2C04704C00DAB61F /* AdditionQuizView.swift */; };
 		FF8CF9312BF733E2001B7024 /* FunMathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8CF9302BF733E2001B7024 /* FunMathApp.swift */; };
-		FF8CF9332BF733E2001B7024 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8CF9322BF733E2001B7024 /* ContentView.swift */; };
 		FF8CF9352BF733E4001B7024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8CF9342BF733E4001B7024 /* Assets.xcassets */; };
 		FF8CF9382BF733E4001B7024 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8CF9372BF733E4001B7024 /* Preview Assets.xcassets */; };
+		FF8CF9602BFC094D001B7024 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8CF95F2BFC094D001B7024 /* ContentView.swift */; };
+		FF8CF9622BFC0A89001B7024 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8CF9612BFC0A89001B7024 /* RegisterView.swift */; };
+		FF8CF9642BFC0ADC001B7024 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8CF9632BFC0ADC001B7024 /* LoginView.swift */; };
+		FF8CF9662BFC1031001B7024 /* LessonTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8CF9652BFC1031001B7024 /* LessonTestView.swift */; };
+		FF8CF9682BFC1045001B7024 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8CF9672BFC1045001B7024 /* LessonView.swift */; };
+		FF9056E42C00B1520011932A /* AddQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9056E32C00B1520011932A /* AddQuestionView.swift */; };
+		FF9CFBDB2C060DD600CB1AC5 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9CFBDA2C060DD600CB1AC5 /* UserProfileView.swift */; };
+		FF9CFBDD2C07097E00CB1AC5 /* ProfileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9CFBDC2C07097E00CB1AC5 /* ProfileSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF41E5B92BFCA9C40002EA08 /* LessonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDetailView.swift; sourceTree = "<group>"; };
+		FF41E5BB2BFCB19A0002EA08 /* AdditionLessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionLessonView.swift; sourceTree = "<group>"; };
+		FF41E5BD2BFCB91A0002EA08 /* SubtractionLessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionLessonView.swift; sourceTree = "<group>"; };
+		FF41E5BF2BFDC6040002EA08 /* MultiplicationLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationLesson.swift; sourceTree = "<group>"; };
+		FF41E5C12BFDC6B60002EA08 /* DivisionLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionLesson.swift; sourceTree = "<group>"; };
+		FF41E5CE2BFDD5310002EA08 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		FF41E5D22BFDD6F20002EA08 /* AdditionLessonTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionLessonTestView.swift; sourceTree = "<group>"; };
+		FF41E5D52BFDF9540002EA08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FF41E6672BFF2A0B0002EA08 /* MistakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistakeView.swift; sourceTree = "<group>"; };
+		FF41E6692BFF54B90002EA08 /* PrintableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintableView.swift; sourceTree = "<group>"; };
+		FF41E66B2BFFB2E30002EA08 /* SubtractionLessonTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionLessonTestView.swift; sourceTree = "<group>"; };
+		FF41E66D2BFFB4C30002EA08 /* DivisionLessonTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionLessonTestView.swift; sourceTree = "<group>"; };
+		FF41E66F2BFFB5FF0002EA08 /* MultiplicationLessonTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationLessonTestView.swift; sourceTree = "<group>"; };
+		FF41E6712BFFB7A50002EA08 /* UserGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGuideView.swift; sourceTree = "<group>"; };
+		FF41E6732BFFC1490002EA08 /* LessonViewGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewGuide.swift; sourceTree = "<group>"; };
+		FF41E6752BFFC4640002EA08 /* LessonCardGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCardGuide.swift; sourceTree = "<group>"; };
+		FF41E6772C0077F80002EA08 /* TestViewGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewGuide.swift; sourceTree = "<group>"; };
+		FF4F67CD2C007D9700D1F6B9 /* LessonTestGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTestGuide.swift; sourceTree = "<group>"; };
+		FF4F67CF2C00826200D1F6B9 /* MistakeViewGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistakeViewGuide.swift; sourceTree = "<group>"; };
+		FF8915512C042BA500DAB61F /* SubtractionQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionQuizView.swift; sourceTree = "<group>"; };
+		FF8915532C042C5F00DAB61F /* MultiplicationQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationQuizView.swift; sourceTree = "<group>"; };
+		FF8915552C042CBC00DAB61F /* DivisionQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionQuizView.swift; sourceTree = "<group>"; };
+		FF8915582C046D2500DAB61F /* MixedQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedQuizView.swift; sourceTree = "<group>"; };
+		FF89155A2C046D7F00DAB61F /* QuestionAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswerView.swift; sourceTree = "<group>"; };
+		FF89155C2C04704C00DAB61F /* AdditionQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionQuizView.swift; sourceTree = "<group>"; };
 		FF8CF92D2BF733E2001B7024 /* FunMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8CF9302BF733E2001B7024 /* FunMathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunMathApp.swift; sourceTree = "<group>"; };
-		FF8CF9322BF733E2001B7024 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF8CF9342BF733E4001B7024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF8CF9372BF733E4001B7024 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF8CF95F2BFC094D001B7024 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF8CF9612BFC0A89001B7024 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		FF8CF9632BFC0ADC001B7024 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FF8CF9652BFC1031001B7024 /* LessonTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTestView.swift; sourceTree = "<group>"; };
+		FF8CF9672BFC1045001B7024 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		FF9056E32C00B1520011932A /* AddQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionView.swift; sourceTree = "<group>"; };
+		FF9CFBDA2C060DD600CB1AC5 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		FF9CFBDC2C07097E00CB1AC5 /* ProfileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +119,132 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF41E5F72BFDFC7B0002EA08 /* FirebaseFunctions in Frameworks */,
+				FF41E5ED2BFDFC7B0002EA08 /* FirebaseDatabaseSwift in Frameworks */,
+				FF41E60F2BFDFC7B0002EA08 /* FirebaseVertexAI-Preview in Frameworks */,
+				FF41E5FD2BFDFC7B0002EA08 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				FF41E6032BFDFC7B0002EA08 /* FirebaseMessaging in Frameworks */,
+				FF41E5E32BFDFC7B0002EA08 /* FirebaseAppDistribution-Beta in Frameworks */,
+				FF41E5E72BFDFC7B0002EA08 /* FirebaseAuthCombine-Community in Frameworks */,
+				FF41E5F32BFDFC7B0002EA08 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				FF41E5DD2BFDFC7B0002EA08 /* FirebaseAnalyticsSwift in Frameworks */,
+				FF41E6012BFDFC7B0002EA08 /* FirebaseMLModelDownloader in Frameworks */,
+				FF41E5DF2BFDFC7B0002EA08 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				FF41E5D92BFDFC7B0002EA08 /* FirebaseAnalytics in Frameworks */,
+				FF41E5F52BFDFC7B0002EA08 /* FirebaseFirestoreSwift in Frameworks */,
+				FF41E5DB2BFDFC7B0002EA08 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				FF41E5E12BFDFC7B0002EA08 /* FirebaseAppCheck in Frameworks */,
+				FF41E6052BFDFC7B0002EA08 /* FirebasePerformance in Frameworks */,
+				FF41E5FB2BFDFC7B0002EA08 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				FF41E5F92BFDFC7B0002EA08 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				FF41E5E92BFDFC7B0002EA08 /* FirebaseCrashlytics in Frameworks */,
+				FF41E5FF2BFDFC7B0002EA08 /* FirebaseInstallations in Frameworks */,
+				FF41E6072BFDFC7B0002EA08 /* FirebaseRemoteConfig in Frameworks */,
+				FF41E60B2BFDFC7B0002EA08 /* FirebaseStorage in Frameworks */,
+				FF41E5EB2BFDFC7B0002EA08 /* FirebaseDatabase in Frameworks */,
+				FF41E60D2BFDFC7B0002EA08 /* FirebaseStorageCombine-Community in Frameworks */,
+				FF41E5C72BFDCB190002EA08 /* ConfettiSwiftUI in Frameworks */,
+				FF41E5E52BFDFC7B0002EA08 /* FirebaseAuth in Frameworks */,
+				FF41E5EF2BFDFC7B0002EA08 /* FirebaseDynamicLinks in Frameworks */,
+				FF41E5F12BFDFC7B0002EA08 /* FirebaseFirestore in Frameworks */,
+				FF41E6092BFDFC7B0002EA08 /* FirebaseRemoteConfigSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF41E67B2C00792D0002EA08 /* RegisterationScreens */ = {
+			isa = PBXGroup;
+			children = (
+				FF8CF9612BFC0A89001B7024 /* RegisterView.swift */,
+				FF8CF9632BFC0ADC001B7024 /* LoginView.swift */,
+			);
+			path = RegisterationScreens;
+			sourceTree = "<group>";
+		};
+		FF41E67C2C0079520002EA08 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				FF8CF9652BFC1031001B7024 /* LessonTestView.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		FF41E67D2C00797A0002EA08 /* LessonAndTestHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				FF41E5CE2BFDD5310002EA08 /* TestView.swift */,
+				FF8CF9672BFC1045001B7024 /* LessonView.swift */,
+			);
+			path = LessonAndTestHomePage;
+			sourceTree = "<group>";
+		};
+		FF41E67E2C0079A20002EA08 /* LessonScreens */ = {
+			isa = PBXGroup;
+			children = (
+				FF41E5B92BFCA9C40002EA08 /* LessonDetailView.swift */,
+				FF41E5BB2BFCB19A0002EA08 /* AdditionLessonView.swift */,
+				FF41E5BD2BFCB91A0002EA08 /* SubtractionLessonView.swift */,
+				FF41E5BF2BFDC6040002EA08 /* MultiplicationLesson.swift */,
+				FF41E5C12BFDC6B60002EA08 /* DivisionLesson.swift */,
+			);
+			path = LessonScreens;
+			sourceTree = "<group>";
+		};
+		FF41E67F2C0079DD0002EA08 /* LessonTestScreens */ = {
+			isa = PBXGroup;
+			children = (
+				FF41E66B2BFFB2E30002EA08 /* SubtractionLessonTestView.swift */,
+				FF41E66D2BFFB4C30002EA08 /* DivisionLessonTestView.swift */,
+				FF41E66F2BFFB5FF0002EA08 /* MultiplicationLessonTestView.swift */,
+				FF41E5D22BFDD6F20002EA08 /* AdditionLessonTestView.swift */,
+			);
+			path = LessonTestScreens;
+			sourceTree = "<group>";
+		};
+		FF41E6802C007A120002EA08 /* MistakeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FF41E6672BFF2A0B0002EA08 /* MistakeView.swift */,
+			);
+			path = MistakeScreen;
+			sourceTree = "<group>";
+		};
+		FF41E6812C007A280002EA08 /* PrintableScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FF41E6692BFF54B90002EA08 /* PrintableView.swift */,
+			);
+			path = PrintableScreen;
+			sourceTree = "<group>";
+		};
+		FF41E6822C007AC30002EA08 /* GuideScreens */ = {
+			isa = PBXGroup;
+			children = (
+				FF41E6712BFFB7A50002EA08 /* UserGuideView.swift */,
+				FF41E6732BFFC1490002EA08 /* LessonViewGuide.swift */,
+				FF41E6752BFFC4640002EA08 /* LessonCardGuide.swift */,
+				FF41E6772C0077F80002EA08 /* TestViewGuide.swift */,
+				FF4F67CD2C007D9700D1F6B9 /* LessonTestGuide.swift */,
+				FF4F67CF2C00826200D1F6B9 /* MistakeViewGuide.swift */,
+			);
+			path = GuideScreens;
+			sourceTree = "<group>";
+		};
+		FF8915572C046C7700DAB61F /* TestQuizScreens */ = {
+			isa = PBXGroup;
+			children = (
+				FF89155A2C046D7F00DAB61F /* QuestionAnswerView.swift */,
+				FF8915512C042BA500DAB61F /* SubtractionQuizView.swift */,
+				FF8915532C042C5F00DAB61F /* MultiplicationQuizView.swift */,
+				FF8915552C042CBC00DAB61F /* DivisionQuizView.swift */,
+				FF8915582C046D2500DAB61F /* MixedQuizView.swift */,
+				FF89155C2C04704C00DAB61F /* AdditionQuizView.swift */,
+			);
+			path = TestQuizScreens;
+			sourceTree = "<group>";
+		};
 		FF8CF9242BF733E2001B7024 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +264,9 @@
 		FF8CF92F2BF733E2001B7024 /* FunMath */ = {
 			isa = PBXGroup;
 			children = (
+				FF8CF95C2BFC0842001B7024 /* SupportingFiles */,
+				FF8CF9592BFC077C001B7024 /* Views */,
 				FF8CF9302BF733E2001B7024 /* FunMathApp.swift */,
-				FF8CF9322BF733E2001B7024 /* ContentView.swift */,
 				FF8CF9342BF733E4001B7024 /* Assets.xcassets */,
 				FF8CF9362BF733E4001B7024 /* Preview Content */,
 			);
@@ -65,6 +279,50 @@
 				FF8CF9372BF733E4001B7024 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF8CF9592BFC077C001B7024 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF41E6802C007A120002EA08 /* MistakeScreen */,
+				FF41E6812C007A280002EA08 /* PrintableScreen */,
+				FF41E6822C007AC30002EA08 /* GuideScreens */,
+				FF9CFBDE2C070EAD00CB1AC5 /* UserProfile */,
+				FF8915572C046C7700DAB61F /* TestQuizScreens */,
+				FFE89A7D2C00B655002D1437 /* AddQuestion */,
+				FF41E67F2C0079DD0002EA08 /* LessonTestScreens */,
+				FF41E67E2C0079A20002EA08 /* LessonScreens */,
+				FF41E67D2C00797A0002EA08 /* LessonAndTestHomePage */,
+				FF41E67C2C0079520002EA08 /* HomePage */,
+				FF41E67B2C00792D0002EA08 /* RegisterationScreens */,
+				FF8CF95F2BFC094D001B7024 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF8CF95C2BFC0842001B7024 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FF41E5D52BFDF9540002EA08 /* GoogleService-Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		FF9CFBDE2C070EAD00CB1AC5 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				FF9CFBDC2C07097E00CB1AC5 /* ProfileSettings.swift */,
+				FF9CFBDA2C060DD600CB1AC5 /* UserProfileView.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		FFE89A7D2C00B655002D1437 /* AddQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				FF9056E32C00B1520011932A /* AddQuestionView.swift */,
+			);
+			path = AddQuestion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +341,37 @@
 			dependencies = (
 			);
 			name = FunMath;
+			packageProductDependencies = (
+				FF41E5C62BFDCB190002EA08 /* ConfettiSwiftUI */,
+				FF41E5D82BFDFC7B0002EA08 /* FirebaseAnalytics */,
+				FF41E5DA2BFDFC7B0002EA08 /* FirebaseAnalyticsOnDeviceConversion */,
+				FF41E5DC2BFDFC7B0002EA08 /* FirebaseAnalyticsSwift */,
+				FF41E5DE2BFDFC7B0002EA08 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				FF41E5E02BFDFC7B0002EA08 /* FirebaseAppCheck */,
+				FF41E5E22BFDFC7B0002EA08 /* FirebaseAppDistribution-Beta */,
+				FF41E5E42BFDFC7B0002EA08 /* FirebaseAuth */,
+				FF41E5E62BFDFC7B0002EA08 /* FirebaseAuthCombine-Community */,
+				FF41E5E82BFDFC7B0002EA08 /* FirebaseCrashlytics */,
+				FF41E5EA2BFDFC7B0002EA08 /* FirebaseDatabase */,
+				FF41E5EC2BFDFC7B0002EA08 /* FirebaseDatabaseSwift */,
+				FF41E5EE2BFDFC7B0002EA08 /* FirebaseDynamicLinks */,
+				FF41E5F02BFDFC7B0002EA08 /* FirebaseFirestore */,
+				FF41E5F22BFDFC7B0002EA08 /* FirebaseFirestoreCombine-Community */,
+				FF41E5F42BFDFC7B0002EA08 /* FirebaseFirestoreSwift */,
+				FF41E5F62BFDFC7B0002EA08 /* FirebaseFunctions */,
+				FF41E5F82BFDFC7B0002EA08 /* FirebaseFunctionsCombine-Community */,
+				FF41E5FA2BFDFC7B0002EA08 /* FirebaseInAppMessaging-Beta */,
+				FF41E5FC2BFDFC7B0002EA08 /* FirebaseInAppMessagingSwift-Beta */,
+				FF41E5FE2BFDFC7B0002EA08 /* FirebaseInstallations */,
+				FF41E6002BFDFC7B0002EA08 /* FirebaseMLModelDownloader */,
+				FF41E6022BFDFC7B0002EA08 /* FirebaseMessaging */,
+				FF41E6042BFDFC7B0002EA08 /* FirebasePerformance */,
+				FF41E6062BFDFC7B0002EA08 /* FirebaseRemoteConfig */,
+				FF41E6082BFDFC7B0002EA08 /* FirebaseRemoteConfigSwift */,
+				FF41E60A2BFDFC7B0002EA08 /* FirebaseStorage */,
+				FF41E60C2BFDFC7B0002EA08 /* FirebaseStorageCombine-Community */,
+				FF41E60E2BFDFC7B0002EA08 /* FirebaseVertexAI-Preview */,
+			);
 			productName = FunMath;
 			productReference = FF8CF92D2BF733E2001B7024 /* FunMath.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +400,10 @@
 				Base,
 			);
 			mainGroup = FF8CF9242BF733E2001B7024;
+			packageReferences = (
+				FF41E5C52BFDCB190002EA08 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+				FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = FF8CF92E2BF733E2001B7024 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +420,7 @@
 			files = (
 				FF8CF9382BF733E4001B7024 /* Preview Assets.xcassets in Resources */,
 				FF8CF9352BF733E4001B7024 /* Assets.xcassets in Resources */,
+				FF41E5D62BFDF9540002EA08 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +431,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8CF9332BF733E2001B7024 /* ContentView.swift in Sources */,
+				FF89155D2C04704C00DAB61F /* AdditionQuizView.swift in Sources */,
+				FF41E5CF2BFDD5310002EA08 /* TestView.swift in Sources */,
+				FF41E6742BFFC1490002EA08 /* LessonViewGuide.swift in Sources */,
+				FF41E5C02BFDC6040002EA08 /* MultiplicationLesson.swift in Sources */,
+				FF8915562C042CBC00DAB61F /* DivisionQuizView.swift in Sources */,
+				FF8CF9622BFC0A89001B7024 /* RegisterView.swift in Sources */,
+				FF41E6682BFF2A0B0002EA08 /* MistakeView.swift in Sources */,
 				FF8CF9312BF733E2001B7024 /* FunMathApp.swift in Sources */,
+				FF8915542C042C5F00DAB61F /* MultiplicationQuizView.swift in Sources */,
+				FF41E5C22BFDC6B60002EA08 /* DivisionLesson.swift in Sources */,
+				FF41E6782C0077F80002EA08 /* TestViewGuide.swift in Sources */,
+				FF9CFBDD2C07097E00CB1AC5 /* ProfileSettings.swift in Sources */,
+				FF9CFBDB2C060DD600CB1AC5 /* UserProfileView.swift in Sources */,
+				FF41E5D32BFDD6F20002EA08 /* AdditionLessonTestView.swift in Sources */,
+				FF41E6762BFFC4640002EA08 /* LessonCardGuide.swift in Sources */,
+				FF4F67CE2C007D9700D1F6B9 /* LessonTestGuide.swift in Sources */,
+				FF9056E42C00B1520011932A /* AddQuestionView.swift in Sources */,
+				FF41E66C2BFFB2E40002EA08 /* SubtractionLessonTestView.swift in Sources */,
+				FF41E66E2BFFB4C30002EA08 /* DivisionLessonTestView.swift in Sources */,
+				FF41E5BA2BFCA9C40002EA08 /* LessonDetailView.swift in Sources */,
+				FF8CF9642BFC0ADC001B7024 /* LoginView.swift in Sources */,
+				FF8CF9662BFC1031001B7024 /* LessonTestView.swift in Sources */,
+				FF4F67D02C00826200D1F6B9 /* MistakeViewGuide.swift in Sources */,
+				FF89155B2C046D7F00DAB61F /* QuestionAnswerView.swift in Sources */,
+				FF8CF9682BFC1045001B7024 /* LessonView.swift in Sources */,
+				FF8CF9602BFC094D001B7024 /* ContentView.swift in Sources */,
+				FF41E6702BFFB5FF0002EA08 /* MultiplicationLessonTestView.swift in Sources */,
+				FF41E5BC2BFCB19A0002EA08 /* AdditionLessonView.swift in Sources */,
+				FF41E6722BFFB7A50002EA08 /* UserGuideView.swift in Sources */,
+				FF41E66A2BFF54B90002EA08 /* PrintableView.swift in Sources */,
+				FF8915522C042BA500DAB61F /* SubtractionQuizView.swift in Sources */,
+				FF41E5BE2BFCB91A0002EA08 /* SubtractionLessonView.swift in Sources */,
+				FF8915592C046D2500DAB61F /* MixedQuizView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +600,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +630,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +666,173 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF41E5C52BFDCB190002EA08 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF41E5C62BFDCB190002EA08 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5C52BFDCB190002EA08 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+		FF41E5D82BFDFC7B0002EA08 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FF41E5DA2BFDFC7B0002EA08 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		FF41E5DC2BFDFC7B0002EA08 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		FF41E5DE2BFDFC7B0002EA08 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		FF41E5E02BFDFC7B0002EA08 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		FF41E5E22BFDFC7B0002EA08 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		FF41E5E42BFDFC7B0002EA08 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FF41E5E62BFDFC7B0002EA08 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		FF41E5E82BFDFC7B0002EA08 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		FF41E5EA2BFDFC7B0002EA08 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		FF41E5EC2BFDFC7B0002EA08 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		FF41E5EE2BFDFC7B0002EA08 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		FF41E5F02BFDFC7B0002EA08 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FF41E5F22BFDFC7B0002EA08 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		FF41E5F42BFDFC7B0002EA08 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		FF41E5F62BFDFC7B0002EA08 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		FF41E5F82BFDFC7B0002EA08 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		FF41E5FA2BFDFC7B0002EA08 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		FF41E5FC2BFDFC7B0002EA08 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		FF41E5FE2BFDFC7B0002EA08 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		FF41E6002BFDFC7B0002EA08 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		FF41E6022BFDFC7B0002EA08 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		FF41E6042BFDFC7B0002EA08 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		FF41E6062BFDFC7B0002EA08 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		FF41E6082BFDFC7B0002EA08 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		FF41E60A2BFDFC7B0002EA08 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		FF41E60C2BFDFC7B0002EA08 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		FF41E60E2BFDFC7B0002EA08 /* FirebaseVertexAI-Preview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF41E5D72BFDFC7B0002EA08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseVertexAI-Preview";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FF8CF9252BF733E2001B7024 /* Project object */;
 }
